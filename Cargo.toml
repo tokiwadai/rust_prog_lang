@@ -1,0 +1,83 @@
+[package]
+name = "rust_prog_lang"
+version = "0.1.0"
+authors = ["tokiwadai <yezua.ho@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+
+[[bin]]
+name = "test"
+path = "src/bin/test.rs"
+
+[[bin]]
+name = "test2"
+path = "src/bin/test2.rs"
+
+[[bin]]
+name = "1_variable_scope"
+path = "src/bin/chap4/1_variable_scope.rs"
+
+[[bin]]
+name = "2_variable_move"
+path = "src/bin/chap4/2_variable_move.rs"
+
+[[bin]]
+name = "3_variable_ownership"
+path = "src/bin/chap4/3_variable_ownership.rs"
+
+[[bin]]
+name = "4_reference_borrowing"
+path = "src/bin/chap4/4_reference_borrowing.rs"
+
+[[bin]]
+name = "5_mut_immut_references"
+path = "src/bin/chap4/5_mut_immut_references.rs"
+
+[[bin]]
+name = "6_dangle_reference"
+path = "src/bin/chap4/6_dangle_reference.rs"
+
+[[bin]]
+name = "7_string_slices"
+path = "src/bin/chap4/7_string_slices.rs"
+
+[[bin]]
+name = "8_string_literal_slices"
+path = "src/bin/chap4/8_string_literal_slices.rs"
+
+
+[[bin]]
+name = "1_struct_sample"
+path = "src/bin/chap5/1_struct_sample.rs"
+
+[[bin]]
+name = "2_struct_rect_sample"
+path = "src/bin/chap5/2_struct_rect_sample.rs"
+
+[[bin]]
+name = "1_enum_sample"
+path = "src/bin/chap6/1_enum_sample.rs"
+
+[[bin]]
+name = "2_enum_sample"
+path = "src/bin/chap6/2_enum_sample.rs"
+
+[[bin]]
+name = "3_enum_sample"
+path = "src/bin/chap6/3_enum_sample.rs"
+
+[[bin]]
+name = "4_enum_sample"
+path = "src/bin/chap6/4_enum_sample.rs"
+
+[[bin]]
+name = "5_enum_option"
+path = "src/bin/chap6/5_enum_option.rs"
+
+[[bin]]
+name = "6_enum_if_let"
+path = "src/bin/chap6/6_enum_if_let.rs"
