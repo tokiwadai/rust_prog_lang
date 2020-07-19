@@ -5,12 +5,12 @@ fn main() {
     // word still has the value 5 here, but there's no more string that
     // we could meaningfully use the value 5 with. word is now totally invalid!
 
-
     let mut s = String::from("hello world");
     let word = first_word2(&s);
+    println!("word: {}", word);   // this failed
 
     s.clear(); // compile error
-    println!("word: {}", word);   // this failed
+//    println!("word: {}", word);   // this failed
 }
 
 

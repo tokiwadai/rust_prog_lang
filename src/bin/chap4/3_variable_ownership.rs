@@ -1,34 +1,31 @@
 fn main() {
-    // 1. Ownership and Functions
+    // 1. Ownership and Functions, pp. 78
     // String goes to HEAP
     let s = String::from("hello");  // s comes into scope
-
     takes_ownership(s); // s's value moves into the function...
                                     // ... and so is no longer valid here
 //    println!("s: {}", s);   // ERROR, s is out of scope/ has been borrowed!!
 
     // integer goes to STACK
     let x = 5;             // x comes into scope
-
     makes_copy(x); // x would move into the function,
                                 // but i32 is Copy, so it’s okay to still
                                 // use x afterward
-
     println!("x: {}", x);       // it's okay
 
 
-    // 2. Returning values can also transfer ownership.
+
+    // 2. Return Values and Scope, pp. 79
+    // Returning values can also transfer ownership.
     let s1 = gives_ownership(); // gives_ownership moves its return
                                        // value into s1
-
     let s2 = String::from("hello"); // s2 comes into scope
-
-    let s3 = takes_and_gives_back(s2);  // s2 is moved into
-                                        // takes_and_gives_back,
-                                        // which also moves its return value into s3
-
+    let s3 = takes_and_gives_back(s2); // s2 is moved into
+                                                       // takes_and_gives_back,
+                                                       // which also moves its return value
+                                                       // into s3
     println!("s1: {}, s3: {}", s1, s3);
-    //println!("s2: {}", s2)  // ERROR, s2 is out of scope/ has been borrowed!!
+//    println!("s2: {}", s2)  // ERROR, s2 is out of scope/ has been borrowed!!
 }
 
 
