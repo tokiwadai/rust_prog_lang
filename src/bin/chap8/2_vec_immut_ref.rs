@@ -15,8 +15,8 @@ fn main() {
     let mut v = vec![1, 2, 3, 4, 5];
     //first mutable borrow occurs here
     let first = &mut v[0];
-    // second mutable borrow occurs here
-    v.push(6);
+    // second mutable borrow occurs here, which won’t work.
+//    v.push(6);
     println!("The first element is: {}", first);
 }
 

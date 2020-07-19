@@ -84,9 +84,18 @@ path = "src/bin/chap6/6_enum_if_let.rs"
 
 [[bin]]
 name = "1_vec_sample"
-path = "src/bin/chap7/1_vec_sample.rs"
+path = "src/bin/chap8/1_vec_sample.rs"
 
 [[bin]]
 name = "2_vec_immut_ref"
-path = "src/bin/chap7/2_vec_immut_ref.rs"
+path = "src/bin/chap8/2_vec_immut_ref.rs"
+
+[[bin]]
+name = "3_vec_iter"
+path = "src/bin/chap8/3_vec_iter.rs"
+
+[[bin]]
+name = "4_string_samples"
+path = "src/bin/chap8/4_string_samples.rs"
+
 
