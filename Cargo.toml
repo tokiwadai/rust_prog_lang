@@ -98,4 +98,7 @@ path = "src/bin/chap8/3_vec_iter.rs"
 name = "4_string_samples"
 path = "src/bin/chap8/4_string_samples.rs"
 
+[[bin]]
+name = "5_hashmap_samples"
+path = "src/bin/chap8/5_hashmap_samples.rs"
 
