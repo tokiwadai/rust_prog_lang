@@ -102,3 +102,24 @@ path = "src/bin/chap8/4_string_samples.rs"
 name = "5_hashmap_samples"
 path = "src/bin/chap8/5_hashmap_samples.rs"
 
+[profile.release]
+# panic abort, which ends the program without cleaning up.
+# Memory that the program was using will then need to be cleaned up by the operating system.
+#panic = 'abort'
+
+[[bin]]
+name = "1_panic_samples"
+path = "src/bin/chap10/1_panic_samples.rs"
+
+[[bin]]
+name = "2_result_recoverable_samples"
+path = "src/bin/chap10/2_result_recoverable_samples.rs"
+
+[[bin]]
+name = "3_result_matching_samples"
+path = "src/bin/chap10/3_result_matching_samples.rs"
+
+[[bin]]
+name = "4_propagating_error"
+path = "src/bin/chap10/4_propagating_error.rs"
+
