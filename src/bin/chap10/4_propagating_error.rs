@@ -3,8 +3,9 @@ use std::io;
 use std::io::Read;
 
 fn main() {
-    let f = read_username_from_file4()
-        .expect("Failed to open hello3.txt");
+    let s = read_username_from_file4()
+        .expect("main -- read_username_from_file: hello3.txt");
+    println!("s: {}", s);
 }
 
 
@@ -36,14 +37,14 @@ fn read_username_from_file2() -> Result<String, io::Error> {
 // immediately after the ?, pp. 180
 fn read_username_from_file3() -> Result<String, io::Error> {
     let mut s = String::new();
-    File::open("hello.txt")?
+    File::open("hello3.txt")?
         .read_to_string(&mut s)?;
     Ok(s)
 }
 
 use std::fs;
 // using fs::read_to_string doesn’t give us the opportunity
-// to explain all the error handling
+// to explain all the error handling, pp. 181
 fn read_username_from_file4() -> Result<String, io::Error> {
     fs::read_to_string("hello3.txt")
 }

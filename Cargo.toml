@@ -123,3 +123,6 @@ path = "src/bin/chap10/3_result_matching_samples.rs"
 name = "4_propagating_error"
 path = "src/bin/chap10/4_propagating_error.rs"
 
+[[bin]]
+name = "1_generic_samples"
+path = "src/bin/chap11/1_generic_samples.rs"
