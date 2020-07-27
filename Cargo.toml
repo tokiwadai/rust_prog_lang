@@ -109,20 +109,30 @@ path = "src/bin/chap8/5_hashmap_samples.rs"
 
 [[bin]]
 name = "1_panic_samples"
-path = "src/bin/chap10/1_panic_samples.rs"
+path = "src/bin/chap9/1_panic_samples.rs"
 
 [[bin]]
 name = "2_result_recoverable_samples"
-path = "src/bin/chap10/2_result_recoverable_samples.rs"
+path = "src/bin/chap9/2_result_recoverable_samples.rs"
 
 [[bin]]
 name = "3_result_matching_samples"
-path = "src/bin/chap10/3_result_matching_samples.rs"
+path = "src/bin/chap9/3_result_matching_samples.rs"
 
 [[bin]]
 name = "4_propagating_error"
-path = "src/bin/chap10/4_propagating_error.rs"
+path = "src/bin/chap9/4_propagating_error.rs"
 
 [[bin]]
 name = "1_generic_samples"
-path = "src/bin/chap11/1_generic_samples.rs"
+path = "src/bin/chap10/1_generic_samples.rs"
+
+[[bin]]
+name = "2_trait_samples"
+path = "src/bin/chap10/2_trait_samples.rs"
+
+
+[[bin]]
+name = "3_generic_trait_samples"
+path = "src/bin/chap10/3_generic_trait_samples.rs"
+
