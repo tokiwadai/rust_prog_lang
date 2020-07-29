@@ -136,3 +136,14 @@ path = "src/bin/chap10/2_trait_samples.rs"
 name = "3_generic_trait_samples"
 path = "src/bin/chap10/3_generic_trait_samples.rs"
 
+[[bin]]
+name = "4_generic_trait_samples"
+path = "src/bin/chap10/4_generic_trait_samples.rs"
+
+[[bin]]
+name = "5_lifetime_generic_samples"
+path = "src/bin/chap10/5_lifetime_generic_samples.rs"
+
+[[bin]]
+name = "6_lifetime_generic_samples"
+path = "src/bin/chap10/6_lifetime_generic_samples.rs"

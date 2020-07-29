@@ -76,5 +76,4 @@ fn main() {
     let char_list = vec!['y', 'm', 'a', 'q'];
     let result = largest2(&char_list);
     println!("The largest2 char is {}", result);
-
 }
