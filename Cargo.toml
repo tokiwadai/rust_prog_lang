@@ -147,3 +147,7 @@ path = "src/bin/chap10/5_lifetime_generic_samples.rs"
 [[bin]]
 name = "6_lifetime_generic_samples"
 path = "src/bin/chap10/6_lifetime_generic_samples.rs"
+
+[[bin]]
+name = "1_test_samples"
+path = "src/bin/chap11/1_test_samples.rs"
