@@ -1,4 +1,4 @@
-mod front_of_house;
+pub mod front_of_house;
 pub use crate::front_of_house::hosting;
 
 pub fn eat_at_restaurant_front() {
@@ -58,9 +58,6 @@ pub fn eat_at_restaurant_back2() {
     let order2 = back_of_house::Appetizer::Salad;
 }
 
-pub fn add_two(a: i32) -> i32 {
-    internal_adder(a, 2)
-}
-fn internal_adder(a: i32, b: i32) -> i32 {
-    a+b
-}
+
+
+

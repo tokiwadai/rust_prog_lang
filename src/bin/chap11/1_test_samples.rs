@@ -35,6 +35,10 @@ impl Guess {
     }
 }
 
+pub fn main() {
+
+}
+
 #[cfg(test)]
 mod tests {
     use super::*;
