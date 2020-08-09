@@ -27,7 +27,7 @@ fn main() {
     // you can use the move keyword before the parameter list, pp. 309
 
     // The closure then has ownership of x, and isn’t allowed to use x
-    // anymore in the println! statement. Removing it, will fix this example.
+    // anymore in the println! statement. Removing println!, will fix this example.
 //    println!("can't use x here: {:?}", x);
     let y = vec![1, 2, 3];
 
