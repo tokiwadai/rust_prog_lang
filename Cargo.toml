@@ -175,3 +175,9 @@ path = "src/bin/chap13/5_closure_iter_samples.rs"
 [[bin]]
 name = "6_create_own_iter_samples"
 path = "src/bin/chap13/6_create_own_iter_samples.rs"
+
+[[bin]]
+name = "1_box_samples"
+path = "src/bin/chap15/1_box_samples.rs"
+
+
