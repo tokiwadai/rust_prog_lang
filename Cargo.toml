@@ -180,4 +180,10 @@ path = "src/bin/chap13/6_create_own_iter_samples.rs"
 name = "1_box_samples"
 path = "src/bin/chap15/1_box_samples.rs"
 
+[[bin]]
+name = "2_drop_samples"
+path = "src/bin/chap15/2_drop_samples.rs"
 
+[[bin]]
+name = "3_rec_samples"
+path = "src/bin/chap15/3_rec_samples.rs"
