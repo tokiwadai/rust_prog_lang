@@ -185,5 +185,13 @@ name = "2_drop_samples"
 path = "src/bin/chap15/2_drop_samples.rs"
 
 [[bin]]
-name = "3_rec_samples"
-path = "src/bin/chap15/3_rec_samples.rs"
+name = "3_rc_samples"
+path = "src/bin/chap15/3_rc_samples.rs"
+
+[[bin]]
+name = "4_refcell_samples"
+path = "src/bin/chap15/4_refcell_samples.rs"
+
+[[bin]]
+name = "5_rc_refcell_samples"
+path = "src/bin/chap15/5_rc_refcell_samples.rs"
