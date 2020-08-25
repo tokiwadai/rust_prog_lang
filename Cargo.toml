@@ -195,3 +195,7 @@ path = "src/bin/chap15/4_refcell_samples.rs"
 [[bin]]
 name = "5_rc_refcell_samples"
 path = "src/bin/chap15/5_rc_refcell_samples.rs"
+
+[[bin]]
+name = "6_ref_cycle_samples"
+path = "src/bin/chap15/6_ref_cycle_samples.rs"

@@ -31,8 +31,8 @@ fn main() {
           while Box<T> and RefCell<T> have single owners
         - Rc<T> allows only IMMUTABLE borrows checked at compile time
         */
-    let a = Rc::new(List::Cons(5,
-                               Rc::new(List::Cons(10,
+    let a: Rc<List> = Rc::new(List::Cons(5,
+                                         Rc::new(List::Cons(10,
                                                   Rc::new(List::Nil)))));
     /** The implementation of Rc::clone doesn’t make a deep copy of all the data
         like most types’ implementations of clone do.

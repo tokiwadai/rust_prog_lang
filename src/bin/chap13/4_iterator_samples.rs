@@ -4,8 +4,6 @@ fn main() {
     for val in v1_iter {
         println!("Got: {}", val);
     }
-
-
 }
 
 // Calling the next method on an iterator, pp. 312

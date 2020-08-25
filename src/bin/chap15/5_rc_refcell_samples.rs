@@ -3,7 +3,6 @@
     but it only gives immutable access to that data.
     If you have an Rc<T> that holds a RefCell<T>,
     you can get a value that can have multiple owners and that you can mutate, pp. 377 */
-
 #[derive(Debug)]
 enum List {
     Cons(Rc<RefCell<i32>>, Rc<List>),
@@ -17,6 +16,7 @@ use std::rc::Rc;
 fn main() {
     let value: Rc<RefCell<i32>> = Rc::new(RefCell::new(5));
     let a: Rc<List> = Rc::new(Cons(Rc::clone(&value), Rc::new(Nil)));
+    
     let b: List = Cons(Rc::new(RefCell::new(6)), Rc::clone(&a));
     let c: List = Cons(Rc::new(RefCell::new(10)), Rc::clone(&a));
 
