@@ -1,9 +1,8 @@
-// When you create a closure, Rust infers which trait to use based on
-// how the closure uses the values from the environment.
-// All closures implement FnOnce because they can all be called at least once.
-// Closures that don’t move the captured variables also implement FnMut,
-// and closures that don’t need mutable access to the captured variables also implement Fn.
-//
+/** When you create a closure, Rust infers which trait to use based on
+    how the closure uses the values from the environment.
+    All closures implement FnOnce because they can all be called at least once.
+    Closures that don’t move the captured variables also implement FnMut,
+    and closures that don’t need mutable access to the captured variables also implement Fn. */
 fn main() {
     let x = 4;
 
@@ -26,8 +25,8 @@ fn main() {
     // If you want to force the closure to take ownership of the values it uses in the environment,
     // you can use the move keyword before the parameter list, pp. 309
 
-    // The closure then has ownership of x, and isn’t allowed to use x
-    // anymore in the println! statement. Removing println!, will fix this example.
+    // The closure then has ownership of x, and below println isn’t allowed to use x anymore.
+    // Removing println!, will fix this example.
 //    println!("can't use x here: {:?}", x);
     let y = vec![1, 2, 3];
 

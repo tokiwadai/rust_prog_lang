@@ -203,3 +203,15 @@ path = "src/bin/chap15/6_ref_cycle_samples.rs"
 [[bin]]
 name = "7_rc_weak_samples"
 path = "src/bin/chap15/7_rc_weak_samples.rs"
+
+[[bin]]
+name = "1_thread_samples"
+path = "src/bin/chap16/1_thread_samples.rs"
+
+[[bin]]
+name = "2_thread_samples"
+path = "src/bin/chap16/2_thread_samples.rs"
+
+[[bin]]
+name = "3_thread_samples"
+path = "src/bin/chap16/3_thread_samples.rs"
