@@ -215,3 +215,15 @@ path = "src/bin/chap16/2_thread_samples.rs"
 [[bin]]
 name = "3_thread_samples"
 path = "src/bin/chap16/3_thread_samples.rs"
+
+[[bin]]
+name = "4_closure_thread_samples"
+path = "src/bin/chap16/4_closure_thread_samples.rs"
+
+[[bin]]
+name = "5_channel_thread_samples"
+path = "src/bin/chap16/5_channel_thread_samples.rs"
+
+[[bin]]
+name = "6_mutex_samples"
+path = "src/bin/chap16/6_mutex_samples.rs"
